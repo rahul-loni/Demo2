@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txt_marquee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to My Application(Android)"
+        android:textSize="30sp"
+        android:textColor="#FE8742"
+        android:textStyle="italic"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:padding="10dp"
+        />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/a"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login "
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+
+        android:background="@drawable/button_rounded"
+        android:onClick="Click"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup Up"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="sign"
+        android:background="@drawable/button_rounded"
+        />
+    <TextView
+        android:id="@+id/txt_marquee1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanks for visiting || Visite again"
+        android:textSize="30sp"
+        android:textColor="#23AAF2"
+        android:textStyle="italic"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:padding="10dp"
+
+        />
+
+
+</LinearLayout>
